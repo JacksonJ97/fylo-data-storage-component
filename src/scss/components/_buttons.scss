@@ -1,0 +1,6 @@
+@use "../abstracts/variables" as *;
+
+button {
+  border-style: none;
+  background-color: $veryDarkBlue;
+}

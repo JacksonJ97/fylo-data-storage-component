@@ -1,5 +1,24 @@
+button {
+  border-style: none;
+  background-color: #0c122c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 body {
   font-family: "Raleway", sans-serif;
-  color: #0c122c;
-  background: #848794;
+  color: #dddbff;
+  background: #0c122c;
+}
+
+.hide-mobile {
+  display: none;
 }

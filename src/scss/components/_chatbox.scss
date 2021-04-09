@@ -1,0 +1,11 @@
+@use "abstracts/variables" as *;
+
+.remaining-storage {
+  background: white;
+  color: $veryDarkBlue;
+  font-size: 2rem;
+}
+
+.fade {
+  color: $grayishBlue;
+}

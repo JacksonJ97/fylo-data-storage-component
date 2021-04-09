@@ -1,3 +1,13 @@
+.remaining-storage {
+  background: white;
+  color: #0c122c;
+  font-size: 2rem;
+}
+
+.fade {
+  color: #848794;
+}
+
 button {
   border-style: none;
   background-color: #0c122c;
@@ -9,16 +19,34 @@ button {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 0.875rem;
+}
+
 .bold {
   font-weight: 700;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  color: #dddbff;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 90%;
+}
+
+.card {
+  background: #1d2c67;
+}
+
+body {
   background: #0c122c;
 }
 
-.hide-mobile {
+.hide-desktop {
   display: none;
 }

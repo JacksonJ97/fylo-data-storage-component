@@ -1,13 +1,12 @@
 @use "abstracts/variables" as *;
-@use "components/buttons";
+@use "components";
 @use "base";
+@use "layout";
 
 body {
-  font-family: $font;
-  color: $paleBlue;
   background: $veryDarkBlue;
 }
 
-.hide-mobile {
+.hide-desktop {
   display: none;
 }

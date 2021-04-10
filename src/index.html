@@ -22,13 +22,15 @@
 
       <div class="storage-bar">
         <p>You’ve used <span class="bold">815 GB</span> of your storage</p>
-        <div class="storage-slider"></div>
-        <div class="storage-range bold">0 GB 1000 GB</div>
-      </div>
 
-      <div class="remaining-storage bold">185 <span class="fade">GB Left</span></div>
+        <div class="storage-slider">
+          <input type="range" min="0" max="1000" value="500" class="slider" />
+        </div>
+
+        <div class="storage-range bold">0 GB 1000 GB</div>
+
+        <div class="storage-indicator"><span class="bold">185</span><span class="fade bold">GB Left</span></div>
+      </div>
     </div>
-    <!-- <img src="/images/bg-desktop.png" alt="" class="hide-desktop" />
-    <img src="/images/bg-mobile.png" alt="" class="hide-mobile" /> -->
   </body>
 </html>

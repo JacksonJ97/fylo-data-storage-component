@@ -2,8 +2,28 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
+  background-image: url("~images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   width: 90%;
+}
+
+.storage-bar {
+  margin: 1em auto 0 auto;
+  max-width: 380px;
+  position: relative;
+}
+
+.card {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.storage-indicator {
+  position: absolute;
+  left: 50%;
+  bottom: -25%;
 }

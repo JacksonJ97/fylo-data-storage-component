@@ -1,0 +1,23 @@
+@use "abstracts/variables" as *;
+
+.storage-slider {
+  background-color: $veryDarkBlue;
+  border-radius: 12px;
+  padding: 0.15em;
+}
+
+.slider {
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+}
+
+.slider::-webkit-slider-thumb {
+  // -webkit-appearance: none;
+  // appearance: none;
+  width: 10px;
+  height: 10px;
+  background: white;
+  cursor: pointer;
+}

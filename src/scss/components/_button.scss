@@ -1,6 +1,9 @@
 @use "abstracts/variables" as *;
 
-button {
-  border-style: none;
+.card button {
+  height: 45px;
+  width: 45px;
   background-color: $veryDarkBlue;
+  border-style: none;
+  border-radius: 8px;
 }

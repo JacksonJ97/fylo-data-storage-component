@@ -1,12 +1,4 @@
-@use "abstracts/variables" as *;
+@use "abstracts/variables";
 @use "components";
 @use "base";
 @use "layout";
-
-body {
-  background: $veryDarkBlue;
-}
-
-.hide-desktop {
-  display: none;
-}

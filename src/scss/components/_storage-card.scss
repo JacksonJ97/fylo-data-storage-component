@@ -1,0 +1,11 @@
+@use "abstracts/variables" as *;
+
+.storage-bar {
+  background-color: $darkBlue;
+  padding: 2.5em;
+  border-radius: 8px;
+}
+
+.storage-bar p {
+  text-align: center;
+}

@@ -9,21 +9,29 @@
 .storage-slider {
   background-color: #0c122c;
   border-radius: 12px;
-  padding: 0.15em;
+  width: 265px;
+  height: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.slider {
-  width: 100%;
-  -webkit-appearance: none;
-  outline: none;
-  background: transparent;
+.inner-slider {
+  background: linear-gradient(to right, #ffa399, #ff4d97);
+  width: 180px;
+  height: 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0.25em;
 }
 
-.slider::-webkit-slider-thumb {
+.circle {
+  background-color: white;
   width: 10px;
   height: 10px;
-  background: white;
-  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 0.25em;
 }
 
 .card {
@@ -52,20 +60,34 @@
   text-align: center;
 }
 
+.storage-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin: 0.75em 0 1em 0;
+}
+
+.storage-slider {
+  margin-top: 1.25em;
+}
+
 .storage-indicator {
   background: white;
   color: #0c122c;
-  font-size: 2rem;
+  font-size: 2.5rem;
   border-radius: 8px;
-  width: 30%;
+  padding: 0.25em 0.5em;
   display: flex;
   align-items: center;
+  justify-items: center;
 }
 
-.fade {
+.storage-indicator__text {
+  font-size: 0.75rem;
   color: #848794;
-  font-size: 0.875rem;
-  margin-left: 1em;
+  text-transform: uppercase;
+  margin-left: 0.75em;
+  margin-top: 0.5em;
 }
 
 * {
@@ -110,6 +132,5 @@ body {
 
 .storage-indicator {
   position: absolute;
-  left: 50%;
-  bottom: -25%;
+  left: 25%;
 }

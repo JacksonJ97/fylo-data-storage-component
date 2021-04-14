@@ -9,3 +9,14 @@
 .storage-bar p {
   text-align: center;
 }
+
+.storage-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin: 0.75em 0 1em 0;
+}
+
+.storage-slider {
+  margin-top: 1.25em;
+}

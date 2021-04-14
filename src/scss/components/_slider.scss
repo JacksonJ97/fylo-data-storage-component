@@ -3,21 +3,27 @@
 .storage-slider {
   background-color: $veryDarkBlue;
   border-radius: 12px;
-  padding: 0.15em;
+  width: 265px;
+  height: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.slider {
-  width: 100%;
-  -webkit-appearance: none;
-  outline: none;
-  background: transparent;
+.inner-slider {
+  background: $gradient;
+  width: 180px;
+  height: 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0.25em;
 }
 
-.slider::-webkit-slider-thumb {
-  // -webkit-appearance: none;
-  // appearance: none;
+.circle {
+  background-color: white;
   width: 10px;
   height: 10px;
-  background: white;
-  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 0.25em;
 }

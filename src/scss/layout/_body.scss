@@ -1,3 +1,5 @@
+@use "abstracts/variables" as *;
+
 body {
   height: 100vh;
   display: grid;
@@ -13,12 +15,12 @@ body {
 
 .storage-bar {
   margin: 1em auto 0 auto;
-  max-width: 340px;
+  max-width: 360px;
   position: relative;
 }
 
 .card {
-  max-width: 340px;
+  max-width: 360px;
   margin: 0 auto;
 }
 
@@ -26,4 +28,33 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -82px; // Centering using position absolute
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: $veryDarkBlue;
+    background-image: url("~images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+  }
+
+  .container {
+    display: flex;
+    width: 1050px;
+  }
+
+  .card {
+    min-width: 340px;
+  }
+
+  .storage-bar {
+    min-width: 620px;
+    align-self: flex-end;
+  }
+
+  .storage-indicator {
+    top: -30%;
+    left: 80%;
+  }
 }

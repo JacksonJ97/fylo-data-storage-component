@@ -13,16 +13,17 @@ body {
 
 .storage-bar {
   margin: 1em auto 0 auto;
-  max-width: 380px;
+  max-width: 340px;
   position: relative;
 }
 
 .card {
-  max-width: 380px;
+  max-width: 340px;
   margin: 0 auto;
 }
 
 .storage-indicator {
   position: absolute;
-  left: 25%;
+  left: 50%;
+  margin-left: -82px; // Centering using position absolute
 }

@@ -3,7 +3,7 @@
 .storage-slider {
   background-color: $veryDarkBlue;
   border-radius: 12px;
-  width: 265px;
+  max-width: 310px;
   height: 20px;
   display: flex;
   align-items: center;
@@ -11,13 +11,13 @@
 
 .inner-slider {
   background: $gradient;
-  width: 180px;
+  width: 60%;
   height: 15px;
   border-radius: 12px;
+  margin-left: 0.25em;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-left: 0.25em;
 }
 
 .circle {

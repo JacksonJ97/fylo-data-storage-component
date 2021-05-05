@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view](./design/final-desktop.jpg)
+![Desktop view](./design/final-desktop.JPG)
 
-![Mobile view](./design/final-mobile.jpg)
+![Mobile view](./design/final-mobile.JPG)
 
 ### Links
 

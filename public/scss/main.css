@@ -1,0 +1,203 @@
+.card button {
+  height: 45px;
+  min-width: 45px;
+  background-color: #0c122c;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.storage-slider {
+  background-color: #0c122c;
+  border-radius: 12px;
+  max-width: 310px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.inner-slider {
+  background: linear-gradient(to right, #ffa399, #ff4d97);
+  width: 60%;
+  height: 15px;
+  border-radius: 12px;
+  margin-left: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.circle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.25em;
+}
+
+@media (min-width: 1400px) {
+  .storage-slider {
+    min-width: 550px;
+  }
+}
+.card {
+  background: #1d2c67;
+  padding: 2.5em;
+  border-radius: 8px 75px 8px 8px;
+  box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.card button {
+  margin-right: 1.5em;
+}
+
+.storage-bar {
+  background-color: #1d2c67;
+  padding: 2.5em;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.storage-bar p {
+  text-align: center;
+}
+
+.storage-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin: 0.75em 0;
+}
+
+.storage-slider {
+  margin-top: 1.25em;
+}
+
+@media (min-width: 1400px) {
+  .storage-bar p {
+    text-align: left;
+  }
+
+  .storage-bar {
+    height: 150px;
+  }
+}
+.storage-indicator {
+  background: white;
+  color: #0c122c;
+  font-size: 2.5rem;
+  border-radius: 8px;
+  padding: 0.25em 0.5em;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.storage-indicator__text {
+  font-size: 0.75rem;
+  color: #848794;
+  text-transform: uppercase;
+  margin-left: 0.75em;
+  margin-top: 0.5em;
+}
+
+@media (min-width: 1400px) {
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid white;
+    border-left: 25px solid transparent;
+    position: absolute;
+    bottom: -35%;
+    right: 0;
+  }
+
+  .storage-indicator {
+    border-bottom-right-radius: 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("/bg-mobile.25f8a1c9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+}
+
+.storage-bar {
+  margin: 1em auto 0 auto;
+  max-width: 360px;
+  position: relative;
+}
+
+.card {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.storage-indicator {
+  position: absolute;
+  left: 50%;
+  margin-left: -82px;
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: #0c122c;
+    background-image: url("/bg-desktop.f8e799e4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+  }
+
+  .container {
+    display: flex;
+    width: 1050px;
+  }
+
+  .card {
+    min-width: 340px;
+  }
+
+  .storage-bar {
+    min-width: 620px;
+    align-self: flex-end;
+  }
+
+  .storage-indicator {
+    top: -30%;
+    left: 80%;
+  }
+}

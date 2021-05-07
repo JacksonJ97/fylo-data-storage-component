@@ -29,7 +29,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/JacksonJ97/Fylo-Data-Storage-Component
 - Live Site URL: https://fylo-data-storage-component-jacksonj97.vercel.app/
 
 ## My process

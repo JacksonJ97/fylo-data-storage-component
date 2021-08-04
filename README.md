@@ -35,7 +35,7 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- Scss
+- SCSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned Sass and how to incorporate a Sass project workflow using a bundler such as Parcel. I tried to learn how to approach projects in components and use Sass partials to make the project more modular. It was tough trying to organize the project files and set it up with parcel as my project is not as clean as it should be. Overall, I learned how to use Parcel, Sass, and got familiar with component based projects. Looking forward, I will continue to improve on how to structure my files while being able to write efficient scss code.
+In this project, I learned Sass and how to incorporate a Sass project workflow using a bundler such as Parcel. I tried to learn how to approach projects in components and use Sass partials to make the project more modular. It was tough trying to organize the project files and set it up with parcel as my project is not as clean as it should be. Overall, I learned how to use Parcel, Sass, and got familiar with component based projects. Looking forward, I will continue to improve on how to structure my files while being able to write efficient SCSS code.
 
 ## Author
 
